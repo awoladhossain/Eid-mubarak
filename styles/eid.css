@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&display=swap');
+
+
+body{
+    background-color: whitesmoke;
+}
+.card{
+    padding-top:150px;
+  }
+.wish{
+    text-align: center;
+    color: transparent;
+    align-items: center;
+    font-family: 'Pacifico', cursive;
+    background-image: linear-gradient(to left,tomato,gold,red,rgb(25, 234, 175),skyblue);
+    /* -webkit-text-fill-color: transparent; */
+    -webkit-background-clip: text;
+    -webkit-background-size: 500%;
+    animation: animate 10s linear infinite;
+}
+@keyframes animate {
+    0%{
+        background-position: 0 100%;
+    }
+    50%{
+        background-position: 100% 0;
+    }
+    100%{
+        background-position: 0 100%;
+    }
+}
